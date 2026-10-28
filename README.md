@@ -1,21 +1,44 @@
 <div align="center">
 
-# ☁️ Hi, I'm Yogi (yogi-infra1)
-### **DevOps Engineer**
-**Designing Resilient Landing Zones • Automating DevSecOps at Scale • Driving FinOps & Cloud Governance**
+# 🚀 YOGENDRA SINGH
+### 🛠️ **DevOps Engineer &nbsp;|&nbsp; ☁️ Azure &nbsp;|&nbsp; 🏗️ Terraform &nbsp;|&nbsp; 🔄 Pipelines**
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yogi-infra1)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@example.com)
-[![Azure](https://img.shields.io/badge/Cloud-Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com)
-[![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://terraform.io)
+<!-- Animated Typing Dynamic Banner -->
+<a href="https://github.com/yogi-infra1">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0089D6&center=true&vcenter=true&width=650&lines=DevOps+Engineer;Azure+%7C+Terraform+%7C+Pipelines;Infrastructure+as+Code+(IaC)+Specialist;Building+Automated+%26+Resilient+CI%2FCD+Pipelines;Zero-Downtime+Cloud+Deployments" alt="Typing SVG" />
+</a>
+
+<br/>
+<br/>
+
+<!-- Social Connect Badges -->
+<p align="center">
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://github.com/yogi-infra1"><img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  &nbsp;
+  <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<!-- Core Skill Pill Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Cloud-Microsoft_Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/IaC-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/CI%2FCD-Azure_Pipelines-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure Pipelines" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Containers-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Security-DevSecOps-FF69B4?style=flat-square&logo=shield&logoColor=white" alt="DevSecOps" />
+</p>
 
 <br/>
 
 ```text
-"Bridging high-level business strategy with zero-downtime, production-grade cloud engineering."
+"Automating cloud infrastructure with Terraform, optimizing CI/CD pipelines, and ensuring zero-downtime operations."
 ```
 
 ---
