@@ -12,50 +12,18 @@
 
 <br/>
 
-<!-- ======================================================= -->
-<!--           EXECUTIVE PORTAL NAVIGATION BADGES            -->
-<!-- ======================================================= -->
 <p align="center">
-  <a href="https://github.com/yogendra-singh-devops">
-    <img src="https://img.shields.io/badge/ENTERPRISE_PORTAL-YOGENDRA--SINGH--DEVOPS-0078D4?style=for-the-badge&labelColor=1f2428" alt="Enterprise Portal" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/yogendra-singh-devops/terraform-azure-enterprise-suite">
-    <img src="https://img.shields.io/badge/TERRAFORM_SUITE-PRODUCTION_IAC-7B42BC?style=for-the-badge&labelColor=1f2428" alt="Terraform Suite" />
-  </a>
-  &nbsp;
   <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LINKEDIN-YOGENDRA_SINGH-0077B5?style=for-the-badge&logo=linkedin&labelColor=1f2428" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/yogendra-singh-devops/azure-devsecops-pipeline-templates">
-    <img src="https://img.shields.io/badge/CI%2FCD_PIPELINES-DEVSECOPS_TEMPLATES-2088FF?style=for-the-badge&labelColor=1f2428" alt="CI/CD Pipelines" />
+  &nbsp;&nbsp;
+  <a href="https://github.com/yogendra-singh-devops">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="mailto:contact@example.com">
-    <img src="https://img.shields.io/badge/EXECUTIVE_CONTACT-GET_IN_TOUCH-EA4335?style=for-the-badge&logo=gmail&labelColor=1f2428" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-</p>
-
-<br/>
-
-<!-- ======================================================= -->
-<!--      COMPLIANCE, GOVERNANCE & SECURITY BADGES           -->
-<!-- ======================================================= -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Architecture-NIST_SP_800--207_Zero_Trust-0078d4?style=flat-square&labelColor=1f2428" alt="Zero Trust" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Framework-Microsoft_CAF_Aligned-0089d6?style=flat-square&labelColor=1f2428" alt="Cloud Adoption Framework" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Security-CIS_Azure_Benchmark_Level_2-28a745?style=flat-square&labelColor=1f2428" alt="CIS Benchmark" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Compliance-ISO_27001_Aligned-343a40?style=flat-square&labelColor=1f2428" alt="ISO 27001" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Supply_Chain-SLSA_Level_3_Provenance-6f42c1?style=flat-square&labelColor=1f2428" alt="SLSA Level 3" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/FinOps-FinOps_Foundation_Practitioner-00c49f?style=flat-square&labelColor=1f2428" alt="FinOps" />
 </p>
 
 <br/>
