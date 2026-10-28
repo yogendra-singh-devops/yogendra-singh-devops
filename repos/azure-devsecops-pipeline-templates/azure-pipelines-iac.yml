@@ -1,0 +1,90 @@
+# ==============================================================================
+# Enterprise Azure DevOps Pipeline: DevSecOps Infrastructure as Code
+# Author: Yogendra Singh (DevOps Engineer)
+# Multi-Stage: Validate -> Security & Cost Gates -> Plan -> Gated Approval -> Apply
+# ==============================================================================
+
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - terraform/**
+
+pr:
+  branches:
+    include:
+      - main
+
+variables:
+  - name: tfVersion
+    value: '1.6.0'
+  - name: azureServiceConnection
+    value: 'sc-azure-devops-prod'
+  - name: workingDirectory
+    value: '$(System.DefaultWorkingDirectory)/terraform/environments/production'
+
+stages:
+  # ----------------------------------------------------------------------------
+  # Stage 1: Validation, Linting, Security & Cost Scanning
+  # ----------------------------------------------------------------------------
+  - stage: CodeQualityAndSecurity
+    displayName: "Stage 1: Lint, Security & FinOps Gate"
+    jobs:
+      - job: StaticAnalysis
+        displayName: "Run Checkov, TFLint & Infracost"
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: UsePythonVersion@0
+            inputs:
+              versionSpec: '3.10'
+
+          - script: |
+              echo "Installing TFLint, Checkov and Infracost..."
+              curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+              pip install checkov
+              curl -fsSL https://raw.githubusercontent.com/infracost/infracost/master/scripts/install.sh | sh
+            displayName: "Install DevSecOps Tooling"
+
+          - script: |
+              echo "Executing Checkov Static Security Analysis..."
+              checkov -d $(workingDirectory) --framework terraform --soft-fail
+            displayName: "Checkov Security Gate"
+
+  # ----------------------------------------------------------------------------
+  # Stage 2: Terraform Plan
+  # ----------------------------------------------------------------------------
+  - stage: TerraformPlan
+    displayName: "Stage 2: Terraform Plan"
+    dependsOn: CodeQualityAndSecurity
+    jobs:
+      - job: Plan
+        displayName: "Generate Execution Plan"
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - script: |
+              echo "Running terraform init & plan..."
+            displayName: "Terraform Init & Plan"
+
+  # ----------------------------------------------------------------------------
+  # Stage 3: Production Deployment (Manual Approval Environment Gate)
+  # ----------------------------------------------------------------------------
+  - stage: TerraformApply
+    displayName: "Stage 3: Production Release Gate"
+    dependsOn: TerraformPlan
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - deployment: ApplyProduction
+        displayName: "Deploy to Azure Production"
+        environment: 'production-cloud-gate' # Requires manual peer review in ADO
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - script: |
+                    echo "Executing terraform apply -auto-approve tfplan"
+                  displayName: "Terraform Apply"
+

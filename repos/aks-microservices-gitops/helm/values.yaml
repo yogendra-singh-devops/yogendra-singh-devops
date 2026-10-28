@@ -1,0 +1,55 @@
+# Production Values for Enterprise Microservice Deployment on AKS
+replicaCount: 3
+
+image:
+  repository: acrprod001.azurecr.io/ecommerce/orders-api
+  pullPolicy: IfNotPresent
+  tag: "v1.4.2"
+
+imagePullSecrets:
+  - name: acr-secret
+
+serviceAccount:
+  create: true
+  name: "orders-api-sa"
+  annotations:
+    azure.workload.identity/client-id: "00000000-0000-0000-0000-000000000000"
+
+podAnnotations:
+  prometheus.io/scrape: "true"
+  prometheus.io/port: "8080"
+  prometheus.io/path: "/metrics"
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1024Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+autoscaling:
+  enabled: true
+  minReplicas: 3
+  maxReplicas: 12
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 80
+
+nodeSelector:
+  workload: ecommerce
+
+tolerations: []
+
+affinity:
+  podAntiAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 100
+        podAffinityTerm:
+          labelSelector:
+            matchExpressions:
+              - key: app
+                operator: In
+                values:
+                  - orders-api
+          topologyKey: topology.kubernetes.io/zone
+

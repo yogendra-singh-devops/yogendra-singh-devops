@@ -1,0 +1,14 @@
+environment    = "prod"
+location       = "eastus"
+project_name   = "cloudscale"
+tenant_id      = "00000000-0000-0000-0000-000000000000"
+ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3... yogendra@devops"
+
+common_tags = {
+  Environment = "Production"
+  Owner       = "Yogendra Singh (DevOps)"
+  Project     = "Enterprise Cloud Migration"
+  CostCenter  = "FinOps-901"
+  ManagedBy   = "Terraform"
+}
+
