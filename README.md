@@ -7,9 +7,8 @@
 
 <br/>
 
-# Yogendra Singh | DevOps Engineering Network
-### **Engineering the Autonomous Enterprise: Cloud Infrastructure, DevSecOps & FinOps**
-*Enterprise Cloud Solutions Specialist &bull; 100+ Workloads Migrated &bull; Zero-Downtime Operations*
+# 🚀 Yogendra Singh
+### **DevOps Engineer &nbsp;|&nbsp; Azure &nbsp;|&nbsp; Terraform &nbsp;|&nbsp; CI/CD Pipelines**
 
 <br/>
 
@@ -73,7 +72,7 @@
 <!-- ======================================================= -->
 ### 📊 **Operational Delivery & Enterprise Impact**
 
-| 🚀 **100+ Workloads Migrated** | 🛡️ **Zero-Trust Security** | 💰 **28%+ FinOps Cost Savings** | ⏱️ **99.99% Availability SLA** |
+| 🚀 **Enterprise Cloud Migration** | 🛡️ **Zero-Trust Security** | 💰 **28%+ FinOps Cost Savings** | ⏱️ **99.99% Availability SLA** |
 | :---: | :---: | :---: | :---: |
 | On-Prem to Azure Migration | Entra ID, PIM & Private Endpoints | Rightsizing, RIs & Auto-Scheduling | Multi-Region Active/DR Architecture |
 
@@ -85,11 +84,11 @@
 
 ## 👨‍💼 Executive Summary & Practice Focus
 
-As a **DevOps Engineer**, I lead the automation, modernization, and governance of enterprise cloud platforms. My core focus lies in translating complex business and architectural requirements into production-ready **Terraform Landing Zones**, resilient **CI/CD pipelines**, and **zero-downtime microservices ecosystems**.
+As a **DevOps Engineer**, I lead the automation, modernization, and governance of enterprise cloud platforms. My core focus lies in translating complex business and architectural requirements into production-ready **Terraform Landing Zones**, resilient **CI/CD pipelines**, and **scalable microservices ecosystems**.
 
 - 🔭 **Current Focus:** Enterprise Azure Hub-and-Spoke Landing Zones, Modular Terraform IaC Suites, and DevSecOps Automation.
 - 💡 **Engineering Philosophy:** Everything as Code (Infrastructure, Security Guardrails, CI/CD, and Compliance Baselines).
-- 🎯 **Core Expertise:** End-to-end cloud migrations (100+ workloads), Kubernetes (AKS) orchestration, and FinOps cloud spend optimization.
+- 🎯 **Core Expertise:** Enterprise cloud migrations, Kubernetes (AKS) orchestration, and FinOps cloud spend optimization.
 - 💬 **Key Competencies:** **Azure Cloud**, **Terraform (HCL)**, **Azure Pipelines & GitHub Actions**, **Docker & AKS**, and **Linux/Bash**.
 
 ---
@@ -177,7 +176,7 @@ Every production workload I design and deploy adheres to these 10 enterprise pil
 
 ---
 
-### 3. 📦 100+ Workload Enterprise Cloud Migration Playbook
+### 3. 📦 Enterprise Cloud Migration Playbook
 - **Phase 1: Discovery & Dependency Mapping** — Cataloging inventory and inter-app dependencies using Azure Migrate.
 - **Phase 2: Compatibility & TCO Assessment** — Sizing compute, bandwidth, and estimating cloud ROI.
 - **Phase 3: Landing Zone Readiness** — ExpressRoute/VPN setup, subnet allocation, and security baselines.
