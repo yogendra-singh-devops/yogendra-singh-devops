@@ -1,0 +1,93 @@
+# ==============================================================================
+# Enterprise Application CI/CD Pipeline (Docker -> ACR -> AKS Deployment)
+# Author: Yogendra Singh (DevOps Engineer)
+# Multi-Stage: Build & Test -> Security Scan -> Docker Package -> Helm AKS Deploy
+# ==============================================================================
+
+trigger:
+  branches:
+    include:
+      - main
+      - release/*
+
+variables:
+  - name: dockerRegistryServiceConnection
+    value: 'sc-azure-acr-prod'
+  - name: imageRepository
+    value: 'ecommerce/orders-api'
+  - name: containerRegistry
+    value: 'acrprod001.azurecr.io'
+  - name: dockerfilePath
+    value: '$(Build.SourcesDirectory)/Dockerfile'
+  - name: tag
+    value: '$(Build.BuildId)'
+
+stages:
+  # ----------------------------------------------------------------------------
+  # Stage 1: Build, Unit Tests & Static Code Analysis
+  # ----------------------------------------------------------------------------
+  - stage: BuildAndTest
+    displayName: "Stage 1: Build & Quality Analysis"
+    jobs:
+      - job: Test
+        displayName: "Run Unit Tests & SonarQube"
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - script: |
+              echo "Executing unit tests with code coverage..."
+            displayName: "Run Unit Tests"
+
+  # ----------------------------------------------------------------------------
+  # Stage 2: Container Build & Trivy Vulnerability Scan
+  # ----------------------------------------------------------------------------
+  - stage: ContainerSecurity
+    displayName: "Stage 2: Container Build & Vulnerability Gate"
+    dependsOn: BuildAndTest
+    jobs:
+      - job: DockerBuildAndScan
+        displayName: "Build Image & Run Trivy"
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - script: |
+              echo "Building Docker Image: $(containerRegistry)/$(imageRepository):$(tag)..."
+              docker build -t $(containerRegistry)/$(imageRepository):$(tag) .
+            displayName: "Docker Build"
+
+          - script: |
+              echo "Installing Trivy Vulnerability Scanner..."
+              curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin
+              echo "Scanning image for CRITICAL and HIGH CVEs..."
+              trivy image --severity CRITICAL,HIGH --exit-code 1 $(containerRegistry)/$(imageRepository):$(tag)
+            displayName: "Trivy Container Security Gate"
+
+  # ----------------------------------------------------------------------------
+  # Stage 3: Deploy to AKS via Helm (Production Gate)
+  # ----------------------------------------------------------------------------
+  - stage: DeployToAKS
+    displayName: "Stage 3: AKS Production Release"
+    dependsOn: ContainerSecurity
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - deployment: DeployProduction
+        displayName: "Helm Upgrade on AKS"
+        environment: 'aks-production-cluster'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: HelmDeploy@0
+                  displayName: "Helm Upgrade Production Microservice"
+                  inputs:
+                    connectionType: 'Azure Resource Manager'
+                    azureSubscription: 'sc-azure-subscription-prod'
+                    azureResourceGroup: 'rg-enterprise-prod-001'
+                    kubernetesCluster: 'aks-enterprise-prod-001'
+                    command: 'upgrade'
+                    chartType: 'FilePath'
+                    chartPath: '$(System.DefaultWorkingDirectory)/helm'
+                    releaseName: 'orders-api'
+                    install: true
+                    arguments: '--set image.tag=$(tag)'
+

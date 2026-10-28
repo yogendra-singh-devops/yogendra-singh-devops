@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-09-01/policyDefinition.json#",
+  "name": "enforce-mandatory-cost-tags",
+  "properties": {
+    "displayName": "Enforce Mandatory FinOps & Governance Tags with Deny Effect",
+    "policyType": "Custom",
+    "mode": "Indexed",
+    "description": "Enforces that all created resource groups and resources contain mandatory Environment, Owner, and CostCenter tags.",
+    "metadata": {
+      "category": "Governance & FinOps",
+      "author": "Yogendra Singh (DevOps)"
+    },
+    "parameters": {
+      "tagName": {
+        "type": "String",
+        "metadata": {
+          "displayName": "Mandatory Tag Name",
+          "description": "Name of the tag, such as Environment or CostCenter"
+        },
+        "defaultValue": "CostCenter"
+      }
+    },
+    "policyRule": {
+      "if": {
+        "field": "[concat('tags[', parameters('tagName'), ']')]",
+        "exists": "false"
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  }
+}
+

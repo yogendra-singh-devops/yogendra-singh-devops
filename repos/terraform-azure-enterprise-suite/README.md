@@ -21,14 +21,14 @@
 This repository provides an enterprise blueprint for deploying end-to-end Microsoft Azure infrastructure with zero out-of-band portal changes.
 
 ```
-+-----------------------------------------------------------------------------------------+
-|                                PRODUCTION SUITE MODULES                                 |
-|                                                                                         |
-|  [ Networking Module ]      [ Storage Module ]      [ Key Vault ]      [ AKS Cluster ]  |
-|  - Dynamic Subnets          - Dynamic Firewall      - Dynamic ACLs     - System Pool    |
-|  - Dynamic NSG Rules        - Soft Delete Retention - for_each Secrets - Dynamic Pools  |
-|  - Dynamic Route Table      - for_each Containers   - Access Policies  - CSI Driver     |
-+-----------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------+
+|                                    PRODUCTION SUITE MODULES                                        |
+|                                                                                                    |
+|  [ Networking ]        [ Storage ]            [ Key Vault ]        [ AKS Cluster ]    [ Security ] |
+|  - Dynamic Subnets     - Dynamic Firewall     - Dynamic ACLs       - System Pool      - Private EP |
+|  - Dynamic NSG Rules   - Soft Delete Retention- for_each Secrets   - Dynamic Pools    - Private DNS|
+|  - Dynamic Route Table - for_each Containers  - Access Policies    - CSI Driver       - Workload ID|
++----------------------------------------------------------------------------------------------------+
 ```
 
 ---
@@ -69,8 +69,22 @@ variable "additional_node_pools" {
 }
 ```
 
-### 3. Defensive Terraform Functions
-Utilizes built-in functions (`can()`, `try()`, `lookup()`, `flatten()`, and conditional filtering) to safely handle optional attributes and avoid deployment halts.
+### 3. Defensive Terraform Functions & Flattening
+Utilizes built-in functions (`flatten()`, `can()`, `try()`, `lookup()`, and conditional filtering) to safely handle optional attributes and avoid deployment halts:
+```hcl
+locals {
+  zone_vnet_pairs = flatten([
+    for zone_name, zone_obj in azurerm_private_dns_zone.zones : [
+      for vnet_name, vnet_id in var.vnet_links : {
+        key       = "${replace(zone_name, ".", "-")}--${vnet_name}"
+        zone_name = zone_name
+        vnet_name = vnet_name
+        vnet_id   = vnet_id
+      }
+    ]
+  ])
+}
+```
 
 ---
 
@@ -86,7 +100,9 @@ Utilizes built-in functions (`can()`, `try()`, `lookup()`, `flatten()`, and cond
 │   ├── compute_vm/                  # Linux VMs with dynamic SSH keys & Managed Identities
 │   ├── storage_account/             # GRS Storage with dynamic network rules & containers
 │   ├── key_vault/                   # Key Vault with dynamic network ACLs & access policies
-│   └── aks_cluster/                 # Production AKS with dynamic user node pools & CSI
+│   ├── aks_cluster/                 # Production AKS with dynamic user node pools & CSI
+│   ├── private_dns/                 # Centralized Private DNS Zones with VNet Links
+│   └── private_endpoint/            # Zero-Trust Private Endpoints for PaaS
 ├── environments/
 │   └── production/                  # Root orchestration assembling all modules
 │       ├── main.tf
@@ -138,4 +154,3 @@ terraform apply
 <div align="center">
 Developed by <b><a href="https://github.com/yogendra-singh-devops">Yogendra Singh</a></b> • DevOps Engineer
 </div>
-

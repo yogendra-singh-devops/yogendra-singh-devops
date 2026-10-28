@@ -1,0 +1,15 @@
+apiVersion: v2
+name: enterprise-orders-api
+description: Production-grade Helm chart for enterprise microservices on AKS
+type: application
+version: 1.0.0
+appVersion: "1.4.2"
+keywords:
+  - aks
+  - microservice
+  - devops
+  - production
+maintainers:
+  - name: Yogendra Singh
+    email: contact@example.com
+

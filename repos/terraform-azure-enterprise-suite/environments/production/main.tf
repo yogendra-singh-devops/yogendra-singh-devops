@@ -249,3 +249,45 @@ module "compute_vm" {
   tags = var.common_tags
 }
 
+# 8. Centralized Private DNS Zones with VNet Linking
+module "private_dns" {
+  source = "../../modules/private_dns"
+
+  resource_group_name = azurerm_resource_group.rg.name
+
+  dns_zones = [
+    "privatelink.blob.core.windows.net",
+    "privatelink.vaultcore.azure.net"
+  ]
+
+  vnet_links = {
+    "vnet-spoke-prod" = module.networking.vnet_id
+  }
+
+  tags = var.common_tags
+}
+
+# 9. Zero-Trust Private Endpoints for PaaS (Storage & Key Vault)
+module "private_endpoints" {
+  source = "../../modules/private_endpoint"
+
+  resource_group_name = azurerm_resource_group.rg.name
+  location            = azurerm_resource_group.rg.location
+
+  endpoints = {
+    "storage-blob" = {
+      subnet_id            = module.networking.subnet_ids["snet-private-endpoints"]
+      target_resource_id   = module.storage_account.storage_account_id
+      subresource_names    = ["blob"]
+      private_dns_zone_ids = [module.private_dns.dns_zone_ids["privatelink.blob.core.windows.net"]]
+    }
+    "key-vault" = {
+      subnet_id            = module.networking.subnet_ids["snet-private-endpoints"]
+      target_resource_id   = module.key_vault.key_vault_id
+      subresource_names    = ["vault"]
+      private_dns_zone_ids = [module.private_dns.dns_zone_ids["privatelink.vaultcore.azure.net"]]
+    }
+  }
+
+  tags = var.common_tags
+}

@@ -38,3 +38,12 @@ output "cicd_runner_ips" {
   value       = module.compute_vm.vm_private_ips
 }
 
+output "private_dns_zone_ids" {
+  description = "Map of Private DNS Zones."
+  value       = module.private_dns.dns_zone_ids
+}
+
+output "private_endpoint_ips" {
+  description = "Private IPs of PaaS Private Endpoints."
+  value       = module.private_endpoints.private_ip_addresses
+}
