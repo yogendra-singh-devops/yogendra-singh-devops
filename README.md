@@ -1,54 +1,81 @@
 <div align="center">
 
-# 🚀 YOGENDRA SINGH
-### **DevOps Engineer &nbsp;|&nbsp; Azure &nbsp;|&nbsp; Terraform &nbsp;|&nbsp; CI/CD Pipelines**
+<!-- ======================================================= -->
+<!--             EXECUTIVE CORPORATE HEADER BANNER           -->
+<!-- ======================================================= -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b192c,40:1e3e62,80:001F3F,100:0b192c&height=220&section=header&text=YOGENDRA%20SINGH&fontSize=44&fontAlignY=36&desc=DevOps%20Engineer%20%20%7C%20%20Azure%20%20%7C%20%20Terraform%20%20%7C%20%20Pipelines&descFontSize=19&descAlignY=62&fontColor=ffffff" width="100%" alt="Yogendra Singh Executive Banner" />
 
 <br/>
 
-<!-- Dynamic Typing SVG Line -->
+# Yogendra Singh | DevOps Engineering Network
+### **Engineering the Autonomous Enterprise: Cloud Infrastructure, DevSecOps & FinOps**
+*Enterprise Cloud Solutions Specialist &bull; 100+ Workloads Migrated &bull; Zero-Downtime Operations*
+
+<br/>
+
+<!-- ======================================================= -->
+<!--           EXECUTIVE PORTAL NAVIGATION BADGES            -->
+<!-- ======================================================= -->
+<p align="center">
+  <a href="https://github.com/yogendra-singh-devops">
+    <img src="https://img.shields.io/badge/ENTERPRISE_PORTAL-YOGENDRA--SINGH--DEVOPS-0078D4?style=for-the-badge&labelColor=1f2428" alt="Enterprise Portal" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/yogendra-singh-devops/terraform-azure-enterprise-suite">
+    <img src="https://img.shields.io/badge/TERRAFORM_SUITE-PRODUCTION_IAC-7B42BC?style=for-the-badge&labelColor=1f2428" alt="Terraform Suite" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/LINKEDIN-YOGENDRA_SINGH-0077B5?style=for-the-badge&logo=linkedin&labelColor=1f2428" alt="LinkedIn" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/yogendra-singh-devops/azure-devsecops-pipeline-templates">
+    <img src="https://img.shields.io/badge/CI%2FCD_PIPELINES-DEVSECOPS_TEMPLATES-2088FF?style=for-the-badge&labelColor=1f2428" alt="CI/CD Pipelines" />
+  </a>
+  &nbsp;
+  <a href="mailto:contact@example.com">
+    <img src="https://img.shields.io/badge/EXECUTIVE_CONTACT-GET_IN_TOUCH-EA4335?style=for-the-badge&logo=gmail&labelColor=1f2428" alt="Email" />
+  </a>
+</p>
+
+<br/>
+
+<!-- ======================================================= -->
+<!--      COMPLIANCE, GOVERNANCE & SECURITY BADGES           -->
+<!-- ======================================================= -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Architecture-NIST_SP_800--207_Zero_Trust-0078d4?style=flat-square&labelColor=1f2428" alt="Zero Trust" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Framework-Microsoft_CAF_Aligned-0089d6?style=flat-square&labelColor=1f2428" alt="Cloud Adoption Framework" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Security-CIS_Azure_Benchmark_Level_2-28a745?style=flat-square&labelColor=1f2428" alt="CIS Benchmark" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Compliance-ISO_27001_Aligned-343a40?style=flat-square&labelColor=1f2428" alt="ISO 27001" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Supply_Chain-SLSA_Level_3_Provenance-6f42c1?style=flat-square&labelColor=1f2428" alt="SLSA Level 3" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/FinOps-FinOps_Foundation_Practitioner-00c49f?style=flat-square&labelColor=1f2428" alt="FinOps" />
+</p>
+
+<br/>
+
+<!-- Dynamic Animated Typing Line -->
 <a href="https://github.com/yogendra-singh-devops">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0089D6&center=true&vcenter=true&width=650&lines=DevOps+Engineer;Azure+%7C+Terraform+%7C+CI%2FCD+Pipelines;Infrastructure+as+Code+(IaC)+Specialist;Building+Automated+%26+Secure+Pipelines;Zero-Downtime+Cloud+Deployments" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=0089D6&center=true&vcenter=true&width=700&lines=⚡+DevOps+Engineer;☁️+Microsoft+Azure+%7C+Terraform+%7C+Pipelines;🚀+Building+Automated+%26+Secure+Landing+Zones;🛡️+Shift-Left+DevSecOps+%26+Zero-Trust+Security;📦+Kubernetes+(AKS)+%7C+Docker+%7C+Helm;💰+FinOps+Cost+Governance+%26+Waste+Elimination" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- Connect Buttons -->
-<p align="center">
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/yogendra-singh-devops">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:contact@example.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+<!-- ======================================================= -->
+<!--             EXECUTIVE OPERATIONAL SNAPSHOT              -->
+<!-- ======================================================= -->
+### 📊 **Operational Delivery & Enterprise Impact**
 
-<!-- Quick Pill Tags -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Azure_Pipelines-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure Pipelines" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/DevSecOps-FF69B4?style=flat-square&logo=shield&logoColor=white" alt="DevSecOps" />
-</p>
-
----
-
-### 📊 **Key Impact & Delivery Metrics**
-
-| 🚀 **100+ Workloads** | 🛡️ **Zero-Trust Security** | 💰 **28%+ Cost Savings** | ⏱️ **99.99% Availability** |
+| 🚀 **100+ Workloads Migrated** | 🛡️ **Zero-Trust Security** | 💰 **28%+ FinOps Cost Savings** | ⏱️ **99.99% Availability SLA** |
 | :---: | :---: | :---: | :---: |
-| End-to-End Cloud Migration | Multi-Layer Defense-in-Depth | FinOps Rightsizing & RIs | High Availability & BCP SLA |
+| On-Prem to Azure Migration | Entra ID, PIM & Private Endpoints | Rightsizing, RIs & Auto-Scheduling | Multi-Region Active/DR Architecture |
 
 ---
 
@@ -56,78 +83,84 @@
 
 <br/>
 
-## 👨‍💻 About Me
+## 👨‍💼 Executive Summary & Practice Focus
 
-Hello! I am a **DevOps Engineer** specializing in Microsoft Azure, Infrastructure as Code with Terraform, and robust CI/CD automation pipelines. I focus on building reliable, automated, and secure cloud environments that help businesses ship software faster with zero downtime.
+As a **DevOps Engineer**, I lead the automation, modernization, and governance of enterprise cloud platforms. My core focus lies in translating complex business and architectural requirements into production-ready **Terraform Landing Zones**, resilient **CI/CD pipelines**, and **zero-downtime microservices ecosystems**.
 
-- 🔭 **Current Focus:** Enterprise Azure Landing Zones, Modular Terraform Templates, and End-to-End DevSecOps Automation.
-- 💡 **Philosophy:** Everything as Code (IaC, Security Policies, CI/CD, and Compliance Guardrails).
-- 🎯 **Specialties:** Cloud Migrations, Hub-and-Spoke Networking, Kubernetes (AKS), and FinOps Cloud Cost Governance.
-- 💬 **Ask Me About:** **Azure**, **Terraform**, **Azure DevOps / GitHub Actions**, **Docker & AKS**, and **Linux/Bash**.
+- 🔭 **Current Focus:** Enterprise Azure Hub-and-Spoke Landing Zones, Modular Terraform IaC Suites, and DevSecOps Automation.
+- 💡 **Engineering Philosophy:** Everything as Code (Infrastructure, Security Guardrails, CI/CD, and Compliance Baselines).
+- 🎯 **Core Expertise:** End-to-end cloud migrations (100+ workloads), Kubernetes (AKS) orchestration, and FinOps cloud spend optimization.
+- 💬 **Key Competencies:** **Azure Cloud**, **Terraform (HCL)**, **Azure Pipelines & GitHub Actions**, **Docker & AKS**, and **Linux/Bash**.
 
 ---
 
-## 🛠️ Technical Skills
+## 🛠️ Technical Competency Matrix
 
 <div align="center">
 
+### 💻 **Primary Technologies & Tooling**
+
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=azure,aws,terraform,ansible,docker,kubernetes,githubactions,gitlab,linux,bash,powershell,py,prometheus,grafana,git" alt="Skills" />
+  <img src="https://skillicons.dev/icons?i=azure,aws,terraform,ansible,docker,kubernetes,githubactions,gitlab,linux,bash,powershell,py,prometheus,grafana,git" alt="Technical Stack" />
 </a>
 
 <br/><br/>
 
 </div>
 
-| Domain | Tools & Technologies |
+| Technical Domain | Core Technologies & Methodologies |
 | :--- | :--- |
-| **Cloud Infrastructure** | **Microsoft Azure** (VNets, Landing Zones, AKS, VMs, App Services, Key Vault, Storage), AWS |
-| **Infrastructure as Code** | **Terraform** (Modules, State Locking, Drift Detection), Terragrunt, Azure Bicep, Ansible |
-| **CI/CD & Automation** | **Azure DevOps Pipelines**, **GitHub Actions**, GitLab CI, Self-Hosted Agents, Automated Rollbacks |
-| **Containers & Orchestration** | **Kubernetes (AKS)**, **Docker**, Helm Charts, Microservices Architecture |
-| **DevSecOps & Code Quality** | Checkov, Trivy, TFLint, Infracost, GitLeaks, SonarQube, PR Review Policies |
-| **Identity & Governance** | Microsoft Entra ID (Azure AD), Privileged Identity Management (PIM), RBAC, Azure Policy |
+| **Cloud Infrastructure** | **Microsoft Azure** (Landing Zones, VNets, AKS, App Services, Key Vault, Storage Accounts), AWS |
+| **Infrastructure as Code** | **Terraform** (`for_each`, `map(object)`, `dynamic` blocks, Remote State Locking), Terragrunt, Azure Bicep |
+| **CI/CD & DevSecOps** | **Azure DevOps Pipelines**, **GitHub Actions**, GitLab CI, Checkov, Trivy, Infracost, GitLeaks |
+| **Containers & Orchestration** | **Kubernetes (AKS)**, **Docker**, Helm 3, Ingress-NGINX, cert-manager, Microservices Architecture |
+| **Identity & Access Management** | Microsoft Entra ID (Azure AD), Privileged Identity Management (PIM), RBAC, Managed Identities |
+| **Governance & Compliance** | Azure Policy initiatives, CIS Azure Benchmarks, NIST SP 800-207 Zero Trust, SLSA Level 3 |
 | **Observability & Logging** | Azure Monitor, Log Analytics Workspaces, Data Collection Rules (DCR), Prometheus, Grafana |
-| **Scripting & Tooling** | Bash, PowerShell, Python, Azure CLI, Git |
+| **Scripting & Automation** | Bash, PowerShell, Python, Azure CLI |
 
 ---
 
-## 🏛️ 10 Core Architectural Pillars
+## ⭐ Featured Enterprise Repositories
 
-Every production workload I design and deploy follows these 10 foundational quality pillars:
+<div align="center">
 
-| # | Pillar | Focus Area & Implementation |
+| Repository | Focus & Architecture | Tech Stack |
+| :--- | :--- | :--- |
+| 🏗️ [**terraform-azure-enterprise-suite**](https://github.com/yogendra-singh-devops/terraform-azure-enterprise-suite) | Modular enterprise IaC suite featuring **`for_each`**, **`map(object)`**, and **`dynamic` blocks** with automated Checkov PR scanning. | `Terraform` `Azure` `HCL` `CI/CD` |
+| 🔄 [**azure-devsecops-pipeline-templates**](https://github.com/yogendra-singh-devops/azure-devsecops-pipeline-templates) | Production-ready multi-stage YAML pipelines enforcing shift-left security (Trivy/Checkov), Infracost, and manual production approval gates. | `Azure DevOps` `YAML` `DevSecOps` |
+| ☸️ [**aks-microservices-gitops**](https://github.com/yogendra-singh-devops/aks-microservices-gitops) | Production Helm 3 packaging, HPA autoscaling (3 to 12 pods), Azure Workload Identity, Ingress TLS, and ArgoCD GitOps sync. | `Kubernetes` `Helm` `AKS` `GitOps` |
+| 💰 [**azure-finops-cloud-governance**](https://github.com/yogendra-singh-devops/azure-finops-cloud-governance) | Automated orphaned disk cleaner, non-prod VM stop/start scheduler (saving up to 60%), and Azure Policy compliance rules. | `Python` `PowerShell` `Azure Policy` |
+
+</div>
+
+---
+
+## 🏛️ 10 Foundational Architectural Pillars
+
+Every production workload I design and deploy adheres to these 10 enterprise pillars:
+
+| # | Pillar | Engineering Standards & Implementation |
 | :-: | :--- | :--- |
-| **1** | 📈 **Scalable** | Auto-scaling compute (VMSS / AKS), dynamic load balancing, and decoupled architecture. |
-| **2** | 🛡️ **Robust** | Self-healing container workloads, circuit breakers, and fault-tolerant infrastructure design. |
-| **3** | 🔒 **Secure** | Zero-Trust model, shift-left vulnerability scanning (Checkov/Trivy), and Private Endpoints. |
+| **1** | 📈 **Scalable** | Auto-scaling compute (VMSS / AKS HPA), dynamic traffic load balancing, and decoupled architecture. |
+| **2** | 🛡️ **Robust** | Self-healing container workloads, circuit breakers, and fault-tolerant multi-zone infrastructure. |
+| **3** | 🔒 **Secure** | Zero-Trust model, shift-left vulnerability scanning (Checkov/Trivy), and PaaS Private Endpoints. |
 | **4** | 🔄 **Reliable** | Automated CI/CD release verification, blue/green deployments, and health probes. |
-| **5** | 📦 **Portable** | Containerized workloads (Docker/K8s) and cloud-agnostic Terraform configuration. |
-| **6** | 📋 **Governed** | Azure Policy guardrails, CIS compliance benchmarks, and strict tag taxonomies. |
-| **7** | ⚡ **High Availability** | Multi-Availability Zone deployment, geo-redundant storage, and paired region failover. |
-| **8** | 💰 **Cost-Optimized** | Continuous FinOps, P95 rightsizing, Reserved Instances (RI), and automated non-prod schedules. |
-| **9** | 💾 **Resilient Backup** | Automated snapshots, geo-redundant backups (GRS), and proven RTO/RPO disaster recovery plans. |
+| **5** | 📦 **Portable** | Containerized workloads (Docker/K8s) and cloud-agnostic modular Terraform templates. |
+| **6** | 📋 **Governed** | Azure Policy guardrails, CIS compliance benchmarks, and strict tag taxonomies (`CostCenter`, `Owner`). |
+| **7** | ⚡ **High Availability** | Multi-Availability Zone deployment, geo-redundant storage (GRS), and paired region failover. |
+| **8** | 💰 **Cost-Optimized** | Continuous FinOps, 30-day P95 rightsizing, Reserved Instances (RI), and automated non-prod schedules. |
+| **9** | 💾 **Resilient Backup** | Automated snapshots, geo-redundant backups, and proven RTO/RPO disaster recovery plans. |
 | **10** | 📊 **Monitored & Compliant** | Centralized Log Analytics, real-time alert routing (Teams/Slack), and continuous audit logging. |
 
 ---
 
-## ⭐ Featured Production Repositories
-
-| Repository | Tech Stack | Highlights |
-| :--- | :--- | :--- |
-| 🏗️ [**terraform-azure-enterprise-suite**](https://github.com/yogendra-singh-devops/terraform-azure-enterprise-suite) | `Terraform` `Azure` `HCL` `CI/CD` | Production-grade modular suite leveraging **`for_each`**, **`map(object)`**, and **`dynamic` blocks** with automated Checkov CI/CD gates. |
-| 🔄 [**azure-devsecops-pipeline-templates**](https://github.com/yogendra-singh-devops/azure-devsecops-pipeline-templates) | `Azure DevOps` `YAML` `DevSecOps` | Multi-stage YAML pipelines enforcing shift-left security (Trivy/Checkov), Infracost, and production approval gates. |
-| ☸️ [**aks-microservices-gitops**](https://github.com/yogendra-singh-devops/aks-microservices-gitops) | `Kubernetes` `Helm` `AKS` `GitOps` | Enterprise Helm packaging, HPA autoscaling, Azure Workload Identity, NGINX Ingress, and cert-manager TLS automation. |
-| 💰 [**azure-finops-cloud-governance**](https://github.com/yogendra-singh-devops/azure-finops-cloud-governance) | `Python` `PowerShell` `Azure Policy` | Automated orphaned disk cleaner, non-prod VM auto-scheduler (saves 60%), and Azure Policy compliance. |
-
----
-
-## 🚀 Key Projects & Architecture Blueprints
+## 🚀 Key Production Architecture Blueprints
 
 ### 1. 🌐 Enterprise Hub-and-Spoke Networking
-- **Central Connectivity:** Hub VNet housing Azure Firewall Premium / NVA for deep packet inspection and centralized internet egress (`0.0.0.0/0`).
+- **Central Connectivity:** Hub VNet housing Azure Firewall Premium / NVA for deep packet inspection and centralized egress (`0.0.0.0/0`).
 - **Secure Isolation:** Spoke VNets for application workloads and shared CI/CD build agents connected via VNet Peering with User Defined Routes (UDR).
-- **Private Access:** PaaS resources (Azure SQL, Key Vault, Blob Storage) secured using Private Endpoints with centralized Private DNS Zones.
+- **Private PaaS Access:** PaaS resources (Azure SQL, Key Vault, Storage) secured using Private Endpoints with centralized Private DNS Zones.
 - **Perimeter Security:** Azure Application Gateway / Front Door configured with Web Application Firewall (WAF) policies.
 
 ---
@@ -136,7 +169,7 @@ Every production workload I design and deploy follows these 10 foundational qual
 - **Modular IaC:** Parameterized, reusable Terraform modules versioned with semantic releases.
 - **Remote State Locking:** State stored in private Azure Blob Storage with blob lease locking and CMK encryption.
 - **Shift-Left Security Gate:** Automated PR pipeline executing:
-  1. `terraform fmt` & `tflint` (Code standard & linting)
+  1. `terraform fmt` & `tflint` (Code standards & linting)
   2. `Checkov` & `Trivy` (Security & vulnerability scanning)
   3. `Infracost` (Cost estimation before deployment)
   4. Production manual approval gate ➔ `terraform apply`
@@ -177,11 +210,11 @@ Every production workload I design and deploy follows these 10 foundational qual
 
 ---
 
-## 📈 GitHub Stats & Activity
+## 📈 Real-Time Activity & Metrics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=yogendra-singh-devops&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yogi's GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=yogendra-singh-devops&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yogendra-singh-devops&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
 <br/>
@@ -194,24 +227,26 @@ Every production workload I design and deploy follows these 10 foundational qual
 
 <div align="center">
 
-## 📬 Let's Connect!
+## 📬 Executive Network & Direct Contact
 
-I am always open to discussing DevOps best practices, cloud infrastructure projects, and automation challenges.
+Open for discussions around Enterprise Cloud Architecture, DevOps Transformation, and Zero-Trust Automation.
 
 <p align="center">
   <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/yogendra-singh-devops">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:contact@example.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
-<sub>Designed with clean UI & responsive standards.</sub>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b192c,40:1e3e62,80:001F3F,100:0b192c&height=18&section=footer" width="100%" alt="Footer Banner" />
+
+<sub>&copy; 2026 Yogendra Singh &bull; Enterprise DevOps & Cloud Infrastructure Network &bull; Built with Precision</sub>
 
 </div>
